@@ -22,7 +22,7 @@ export default {
   },
   computed:{
     list(){
-      return new Array(10000).fill('').map((item,index)=>{
+      return new Array(100).fill('').map((item,index)=>{
         return {
           id:index+1,
           content:`我是内容${index}`
